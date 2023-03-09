@@ -4,8 +4,9 @@ const items = [
     
     {
         id: nanoid(),
-        text: "Contacts page",
-        link: "/contacts"
+        text: "PhonebookPage",
+        link: "/contacts",
+        private: true
     },
 ];
 

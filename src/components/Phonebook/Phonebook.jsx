@@ -14,7 +14,7 @@ const Phonebook = () => {
 
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1>Create your Phonebook</h1>
       <ContactForm />
       <h2>Contacts</h2>
       {isContacts ? (

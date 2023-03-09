@@ -51,6 +51,7 @@ const ContactForm = () => {
         required
         value={name}
         onChange={handleChangeForm}
+        placeholder='enter name'
       />
       <label className={styles.inputTitle} htmlFor="phoneId">
         Number
@@ -65,6 +66,7 @@ const ContactForm = () => {
         required
         value={number}
         onChange={handleChangeForm}
+        placeholder='enter phone number'
       />
       <button className={styles.btn} type="submit">
         Add contacts
