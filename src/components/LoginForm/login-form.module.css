@@ -2,3 +2,16 @@
     width: 400px;
     padding: 20px;
 }
+.formInput:hover {
+    border-color: aqua;
+}
+
+.btn {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: aqua;
+}

@@ -2,4 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../../../assets/depositphotos_8138619-stock-photo-old-style-phone-over-yellow.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.text{
+    font-weight: bolder;
 }

@@ -19,7 +19,7 @@ const Navbar = () => {
 
     return (
         <div className={styles.navbar}>
-            <NavLink to="/">HomePage</NavLink>
+            <NavLink className={styles.link} to="/">HomePage</NavLink>
 
             <ul className={styles.menu}>
                 {elements}

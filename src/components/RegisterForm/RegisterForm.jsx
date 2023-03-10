@@ -14,10 +14,10 @@ const RegisterForm = ({onSubmit}) => {
 
     return (
         <form onSubmit={handleSubmit} className={styles.form}>
-            <TextField value={name} handleChange={handleChange} {...fields.name} />
-            <TextField value={email} handleChange={handleChange} {...fields.email} />
-            <TextField value={password} handleChange={handleChange} {...fields.password} />
-            <Button>Register</Button>
+            <TextField className={styles.formInput} value={name} handleChange={handleChange} {...fields.name} />
+            <TextField className={styles.formInput} value={email} handleChange={handleChange} {...fields.email} />
+            <TextField className={styles.formInput} value={password} handleChange={handleChange} {...fields.password} />
+            <Button className={styles.btn}>Register</Button>
         </form>
     )
 }
