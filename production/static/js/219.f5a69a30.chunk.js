@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[219],{3219:function(e,t,a){a.r(t),a.d(t,{default:function(){return o}});var n="homepage_wrapper__BZ5gP",r="homepage_text__wYkDX",c=a(184),o=function(){return(0,c.jsx)(c.Fragment,{children:(0,c.jsxs)("div",{className:n,children:[(0,c.jsx)("h1",{children:"Welcome to the Phonebook application"}),(0,c.jsx)("p",{className:r,children:"Application for creating and storing all your contacts"})]})})}}}]);
+//# sourceMappingURL=219.f5a69a30.chunk.js.map
